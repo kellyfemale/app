@@ -1,0 +1,606 @@
+.demain{
+	padding-top: 1px;
+	width: 100%;
+	line-height: 1.5;
+	color: #666;
+}
+.demain .content{
+	width: 1240px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+}
+.demain .section1{
+	height: 40px;
+	line-height: 40px;
+}
+.demain .section1 a:first-child{
+	color: #999;
+}
+.demain .section1 a:last-child{
+	display: inline-block;
+	max-width: 500px;
+	color: #333;
+	vertical-align: middle;
+}
+/*左边*/
+.demain .section2 {
+	overflow: hidden;
+}
+.demain .section2 .sec2-left{
+	float: left;
+	width: 495px;
+}
+.demain .section2 .sec2-left .image-big{
+	position: relative;
+	margin: 25px 50px;
+	width: 395px;
+	height: 395px;
+}
+.demain .section2 .sec2-left .image-big img{
+	width: 375px;
+	height: 375px;
+}
+.demain .section2 .sec2-left .image-big .img2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.demain .section2 .sec2-left .image-small{
+	overflow: hidden;
+	text-align: center;
+	margin-top: 10px;
+}
+.demain .section2 .sec2-left .image-small li{
+	display: inline-block;
+	border: 1px solid transparent;
+	padding: 5px;
+}
+.demain .section2 .sec2-left .image-small li.color{
+	border-color: #dcdcdc;
+}
+.demain .section2 .sec2-left .image-small li img{
+	width: 75px;
+	height: 75px;
+}
+.demain .section2 .sec2-left .collect{
+	padding: 5px 60px 0;
+	font-size: 12px;
+}
+.demain .section2 .sec2-left .collect i{
+	margin-right: 3px;
+	color: #FFCD3F;
+}
+/*右边*/
+.demain .section2 .sec2-right{
+	position: relative;
+	float: left;
+	width: 675px;
+	padding-top: 10px;
+}
+.demain .section2 .sec2-right .title h1{
+	margin-bottom: 10px;
+	font-size: 24px;
+	line-height: 1.2;
+	color: #000;
+}
+.demain .section2 .sec2-right .title p{
+	color: #e22841;
+	margin-bottom: 10px;
+}
+.demain .section2 .sec2-right .sell{
+	overflow: hidden;
+	margin-bottom: 26px;
+	background-color: #f5f5f5;
+}
+.demain .section2 .sec2-right .sell dl{
+	height: 55px;
+	overflow: hidden;
+}
+.demain .section2 .sec2-right .sell dl dt{
+	float: left;
+	padding-left: 10px;
+	width: 65px;
+	font-size: 12px;
+	line-height: 62px;
+	height: 55px;
+}
+.demain .section2 .sec2-right .sell dl dt span{
+	padding: 0 6px;
+}
+.demain .section2 .sec2-right .sell dl dd{
+	/*float: left;*/
+	padding-top: 10px;
+}
+.demain .section2 .sec2-right .sell dl dd div{
+	float: left;
+	color: #e02b41;
+}
+.demain .section2 .sec2-right .sell dl dd small{
+	font-size: 24px;
+}
+.demain .section2 .sec2-right .sell dl dd span{
+	font-size: 24px;
+}
+.demain .section2 .sec2-right .select{
+	padding-bottom: 16px;
+	overflow: hidden;
+}
+.demain .section2 .sec2-right .select dl{
+	width: 750px;
+	margin-bottom: 6px;
+}
+.demain .section2 .sec2-right .select dl dt{
+	float: left;
+	padding-left: 10px;
+	width: 65px;
+	font-size: 12px;
+	line-height: 34px;
+}
+.demain .section2 .sec2-right .select dl dd a{
+	position: relative;
+	float: left;
+	padding: 0 8px;
+	margin: 0 6px 10px 0;
+	height: 38px;
+	min-width: inherit;
+	line-height: 38px;
+	padding-left: 50px;
+	padding-right: 13px;
+	border: 1px solid #dcdcdc;
+	border-color: #00c3f5;
+	border-radius: 4px;
+	color: #666;
+	text-align: center;
+}
+.demain .section2 .sec2-right .select dl dd a img{
+	position: absolute;
+	top: 3px;
+	left: 10px;
+	width: 32px;
+	height: 32px;
+	/*vertical-align: top;*/
+}
+.demain .section2 .sec2-right .select dl dd a span{
+	line-height: 38px;
+	font-size: 12px;
+	vertical-align: top;
+}
+.demain .section2 .sec2-right .condition{
+	/*clear: both;*/
+	overflow: visible;
+	border-top: 1px solid #dcdcdc;
+	padding: 23px 0;
+	font-size: 12px;
+}
+.demain .section2 .sec2-right .condition dt{
+	float: left;
+	padding-left: 10px;
+	width: 65px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.demain .section2 .sec2-right .condition dt span{
+	padding: 0 6px;
+}
+.demain .section2 .sec2-right .condition .support{
+	overflow: hidden;
+}
+.demain .section2 .sec2-right .condition .support dd i{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/detail/icon.png);
+	background-position: 0 -100px;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	/*background-size: cover;*/
+	/*background-color: pink;*/
+}
+.demain .section2 .sec2-right .condition dd span{
+	float: left;
+	padding-left: 22px;
+	margin-right: 20px;
+}
+.demain .section2 .sec2-right .condition .send{
+	position: relative;
+	/*overflow: hidden;*/
+	padding-top: 18px;
+}
+.demain .section2 .sec2-right .condition .send dt{
+	line-height: 34px;
+}
+.demain .section2 .sec2-right .condition .send .option{
+	float: left;
+}
+.demain .section2 .sec2-right .condition .send .option .text{
+	display: inline-block;
+	padding: 0 10px;
+	height: 32px;
+	min-width: 130px;
+	line-height: 32px;
+	border-radius: 4px;
+	border: 1px solid #dcdcdc;
+}
+
+.demain .section2 .sec2-right .condition .service{
+	padding-top: 18px;
+	clear: both;
+	overflow: hidden;
+}
+.demain .section2 .sec2-right .buy{
+	/*clear: both*/
+	overflow: hidden;
+	border-top: 1px solid #dcdcdc;
+	padding-top: 26px;
+	margin-bottom: 6px;
+	font-size: 12px;
+}
+.demain .section2 .sec2-right .buy .text{
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	width: 65px;
+	font-size: 12px;
+	line-height: 44px;
+}
+.demain .section2 .sec2-right .buy .stage{
+	float: left;
+	width: auto;
+	font-size: 12px;
+}
+.demain .section2 .sec2-right .buy .stage a{
+	display: inline-block;
+	margin: 0 6px 10px 0;
+	padding: 5px;
+	line-height: 32px;
+	border: 1px solid #dcdcdc;
+	border-radius: 4px;
+	color: #666;
+}
+.demain .section2 .sec2-right .buy .stage a.color{
+	border-color: #00c3f5;
+}
+.demain .section2 .sec2-right .buy .stage a .num{
+	display: block;
+	font-weight: 700;
+}
+.demain .section2 .sec2-right .buy .stage a span{
+	display: block;
+	line-height: 18px;
+}
+.demain .section2 .sec2-right .buy .ques{
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 11px;
+	color: #999;
+}
+.demain .section2 .sec2-right .buy .ques i{
+	vertical-align: middle;
+	color: #00c3f5;
+	font-size: 16px;
+}
+.demain .section2 .sec2-right .number{
+	overflow: hidden;
+	font-size: 12px;
+}
+.demain .section2 .sec2-right .number dl{
+	overflow: hidden;
+	margin-bottom: 26px;
+}
+.demain .section2 .sec2-right .number dl dt{
+	float: left;
+	padding-left: 10px;
+	width: 65px;
+	font-size: 12px;
+	line-height: 34px;
+}
+.demain .section2 .sec2-right .number dl dt span{
+	padding: 0 6px;
+}
+.demain .section2 .sec2-right .number dl dd div{
+	position: relative;
+	z-index: 1;
+	height: 40px;
+	width: 80px;
+	border-radius: 3px;
+	overflow: hidden;
+	float: left;
+	margin-right: 30px;
+}
+.demain .section2 .sec2-right .number dl dd div .minus{
+	color: #666;
+	position: absolute;
+	top: 22px;
+	right: 0;
+	width: 20px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #dcdcdc;
+}
+.demain .section2 .sec2-right .number dl dd div input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 53px;
+	height: 38px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+	border: 1px solid #dcdcdc;
+}
+.demain .section2 .sec2-right .number dl dd div .plus{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 14px;
+	border: 1px solid #dcdcdc;
+	color: #666;
+	text-align: center;
+}
+.demain .section2 .sec2-right .number .action{
+	margin-top: 17px;
+	font-size: 14px;
+}
+.demain .section2 .sec2-right .number .action a:first-child{
+	display: inline-block;
+	padding: 10px 35px;
+	margin-right: 20px;
+	/*width: 128px;*/
+	border-radius: 3px;
+	color: #fff;
+	background-color: #f66567;
+	/*vertical-align: middle;*/
+}
+.demain .section2 .sec2-right .number .action a:last-child{
+	display: inline-block;
+	padding: 10px 30px;
+	/*width: 128px;*/
+	border-radius: 3px;
+	color: #fff;
+	background-color: #00c3f5;
+}
+/*第三部分*/
+
+.demain .section3{
+	margin-top: 80px;
+}
+
+
+.demain .section3 .title{
+	width: 100%;
+	height: 62px;
+}
+.demain .section3 .title ul{
+	overflow: hidden;
+	border-bottom: 1px solid #dcdcdc;
+}
+.demain .section3 .title ul li{
+	float: left;
+	margin-right: 35px;
+}
+.demain .section3 .title ul li a{
+	display: inline-block;
+	padding: 0 20px;
+	line-height: 59px;
+	font-size: 16px;
+	color: #666;
+}
+
+.demain .section3 .title ul li a:hover{
+	color: #00c3f5;
+}
+.demain .section3 .title ul li a.border{
+	border-bottom: 2px solid #00c3f5;
+	color: #00c3f5;
+}
+/*内容*/
+.demain .section3 .content{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 0;
+}
+/*介绍*/
+.demain .section3 .content .introduce{
+	/*display: none;*/
+}
+/*规则参数*/
+.demain .section3 .content .rule{
+	display: none;
+}
+.demain .section3 .content .rule table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 1.5;
+	color: #666;
+	font-size: 14px;
+}
+
+.demain .section3 .content .rule table .bgcolor{
+	background-color: #f4f5f6;
+	text-indent: 30px;
+	text-align: left;
+}
+
+.demain .section3 .content .rule table tr th{
+	width: 24%;
+	color: #333;
+	padding: 14px 0;
+	border: 1px solid #dcdcdc;
+
+}
+.demain .section3 .content .rule table tr td{
+	padding: 10px 40px;
+	/*text-indent: 30px;*/
+	line-height: 28px;
+	color: #999;
+	border: 1px solid #dcdcdc;
+}
+
+/*常见问题*/
+
+.demain .section3 .content .question{
+	display: none;
+	width: 100%;
+	columns: #999;
+}
+.demain .section3 .content .question .ques-con{
+	margin-top: 30px;
+	padding-right: 160px;
+}
+.demain .section3 .content .question h2{
+	/*position: relative;*/
+	z-index: 2;
+	font-size: 18px;
+	font-weight: 700;
+	color: #00c3f5;
+}
+.demain .section3 .content .question dl{
+	padding-top: 35px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #dcdcdc;
+	margin-top: -1px;
+}
+.demain .section3 .content .question dl dt{
+	position: relative;
+	padding-left: 65px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 2;
+	color: #333;
+}
+.demain .section3 .content .question dl dt::after{
+	content: "";
+	position: absolute;
+	left: 10px;
+	top: 3px;
+	width: 36px;
+	height: 26px;
+	background-image: url(../images/detail/icon.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.demain .section3 .content .question dl dd{
+	position: relative;
+	padding: 15px 0 20px 65px;
+	line-height: 1.8;
+	font-size: 14px;
+	color: #999;
+}
+.demain .section3 .content .question dl dd::after{
+	content: "";
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	width: 36px;
+	height: 26px;
+	background-image: url(../images/detail/icon.png);
+	background-repeat: no-repeat;
+	background-position: -36px 0;
+}
+/*下滑部分*/
+.down{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #dcdcdc;
+	z-index: 10001;
+	background-color: #fff;
+	line-height: 1.5;
+	color: #666;
+	opacity: .9;
+	/*background-color: blue;*/
+	display: none;
+}
+.down .content{
+	position: relative;
+	width: 1240px;
+	height: 60px;
+	margin: 0 auto;
+}
+.down .content ul{
+	display: none;
+}
+.down .content ul li{
+	float: left;
+	position: relative;
+	z-index: 1;
+	margin-right: 35px;
+}
+.down .content ul li a{
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 16px;
+	line-height: 79px;
+	color: #666;
+}
+.down .content ul li a:hover{
+	color: #00c3f5;
+}
+
+.down .content ul li a.active{
+	color: #00c3f5;
+	border-bottom: 2px solid #00c3f5;
+}
+.down .content .right{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 600px;
+	height: 80px;
+	overflow: hidden;
+}
+.down .content .right-content{
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+.down .content .right-content .buy{
+	float: right;
+	display: none;
+}
+.down .content .right-content .buy a{
+	display: inline-block;
+	border: 1px solid transparent;
+	padding: 10px 30px; 
+	line-height: 1.33333;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 14px;
+	background-color: #00c3f5;
+}
+.down .content .right-content .text{
+	float: right;
+	font-size: 16px;
+	color: #333;
+	margin-right: 20px;
+	line-height: 20px;
+	text-align: right;
+	display: none;
+}
+.down .content .right-content .text em{
+	margin-left: 10px;
+	color: #e02b41;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	vertical-align: middle;
+	font-style: normal;
+}
+.down .content .right-content .text p{
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+}
